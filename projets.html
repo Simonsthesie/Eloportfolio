@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projets — Eloïse Aubert</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-container">
+    <div class="background-gradient"></div>
+    <div class="background-overlay"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">EA</a>
+    <ul class="nav-links">
+      <li><a href="index.html#projets" class="active">Projets</a></li>
+      <li><a href="index.html#a-propos">A Propos</a></li>
+      <li><a href="index.html#cv">CV</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <main class="page-content projets-page">
+    <header class="page-header">
+      <h1 class="page-title">Projets</h1>
+      <p class="page-subtitle">Explorez mes réalisations par discipline</p>
+    </header>
+
+    <div class="categories-grid">
+      <a href="graphisme.html" class="category-card" data-category="graphisme">
+        <div class="category-card-inner">
+          <span class="category-icon">◆</span>
+          <h2 class="category-title">Graphisme</h2>
+          <p class="category-desc">Identité visuelle, affiches & direction artistique print</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="photographie.html" class="category-card" data-category="photographie">
+        <div class="category-card-inner">
+          <span class="category-icon">◇</span>
+          <h2 class="category-title">Photographie</h2>
+          <p class="category-desc">Séries photographiques & univers visuels</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="video.html" class="category-card" data-category="video">
+        <div class="category-card-inner">
+          <span class="category-icon">▶</span>
+          <h2 class="category-title">Vidéo</h2>
+          <p class="category-desc">Motion design, clips & contenus audiovisuels</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+
+      <a href="web.html" class="category-card" data-category="web">
+        <div class="category-card-inner">
+          <span class="category-icon">◈</span>
+          <h2 class="category-title">Web</h2>
+          <p class="category-desc">Sites web, expériences digitales & interfaces</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

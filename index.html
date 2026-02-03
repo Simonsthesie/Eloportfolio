@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eloïse Aubert — Direction Artistique & Design Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Container (remplaçable par <video> ou <img>) -->
+  <div class="background-container">
+    <div class="background-gradient"></div>
+    <!-- Option vidéo : décommenter et remplir src
+    <video class="background-media" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4">
+    </video>
+    -->
+
+    <img class="background-media" src="assets/planet.png" alt="">
+
+    <div class="background-overlay"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">EA</a>
+    <ul class="nav-links">
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#a-propos">A Propos</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <main class="hero">
+    <h1 class="hero-title">ELOÏSE AUBERT</h1>
+    <h2 class="hero-subtitle">DIRECTION ARTISTIQUE & DESIGN DIGITAL</h2>
+    <a href="#projets" class="hero-cta">Voir les projets</a>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </main>
+
+  <!-- Projets -->
+  <section class="home-projets" id="projets">
+    <header class="page-header">
+      <h2 class="page-title">Projets</h2>
+      <p class="page-subtitle">Explorez mes réalisations par discipline</p>
+    </header>
+    <div class="categories-grid">
+      <a href="graphisme.html" class="category-card" data-category="graphisme">
+        <div class="category-card-inner">
+          <span class="category-icon">◆</span>
+          <h3 class="category-title">Graphisme</h3>
+          <p class="category-desc">Identité visuelle, affiches & direction artistique print</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+      <a href="photographie.html" class="category-card" data-category="photographie">
+        <div class="category-card-inner">
+          <span class="category-icon">◇</span>
+          <h3 class="category-title">Photographie</h3>
+          <p class="category-desc">Séries photographiques & univers visuels</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+      <a href="video.html" class="category-card" data-category="video">
+        <div class="category-card-inner">
+          <span class="category-icon">▶</span>
+          <h3 class="category-title">Vidéo</h3>
+          <p class="category-desc">Motion design, clips & contenus audiovisuels</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+      <a href="web.html" class="category-card" data-category="web">
+        <div class="category-card-inner">
+          <span class="category-icon">◈</span>
+          <h3 class="category-title">Web</h3>
+          <p class="category-desc">Sites web, expériences digitales & interfaces</p>
+          <span class="category-arrow">→</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section class="about" id="a-propos">
+    <div class="about-container">
+      <div class="about-image">
+        <div class="about-image-placeholder"></div>
+        <!-- Remplacer par : <img src="assets/eloise.jpg" alt="Eloïse Aubert"> -->
+      </div>
+      <div class="about-content">
+        <h2 class="about-title">À propos</h2>
+        <p class="about-text">
+          Directrice artistique basée à Paris, je conçois des univers visuels singuliers à la croisée du print, du digital et du motion. Mon approche — rigoureuse et intuitive — place l’identité et l’émotion au cœur de chaque projet.
+        </p>
+        <p class="about-text">
+          Avec plus de 10 ans d’expérience en agence et en freelance, j’accompagne marques, institutions et artistes dans la définition de leur image et la réalisation de créations mémorables.
+        </p>
+        <div class="about-tags">
+          <span>Direction artistique</span>
+          <span>Branding</span>
+          <span>Design print & digital</span>
+          <span>Identité visuelle</span>
+          <span>Motion design</span>
+        </div>
+        <a href="#contact" class="about-cta">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
