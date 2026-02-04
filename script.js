@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.getElementById('navbar');
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.querySelector('.nav-links');
+  const backgroundVideo = document.getElementById('backgroundVideo');
+
+  // Vidéo : figer sur la dernière image à la fin
+  if (backgroundVideo) {
+    backgroundVideo.addEventListener('ended', () => {
+      // Se positionner sur la dernière frame et arrêter la lecture
+      backgroundVideo.pause();
+      backgroundVideo.currentTime = backgroundVideo.duration;
+    });
+  }
 
   // Scroll : effet glassmorphism renforcé
   let lastScroll = 0;
