@@ -998,6 +998,25 @@ ul {
   flex-shrink: 0;
 }
 
+.photo-planches {
+  grid-template-columns: 1fr !important;
+  gap: 2rem !important;
+}
+
+.photo-planche-item {
+  aspect-ratio: unset !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.photo-planche-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain !important;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 .projet-video-wrapper {
   position: relative;
   width: 100%;
